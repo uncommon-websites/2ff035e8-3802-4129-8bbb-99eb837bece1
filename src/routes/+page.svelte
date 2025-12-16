@@ -2,23 +2,28 @@
 	// No script needed for static recreation
 </script>
 
+<svelte:head>
+	<title>Amber Minefee — Product Designer</title>
+	<meta name="description" content="Product designer transforming complex systems into empathetic, data-informed experiences. Specializing in healthcare and education UX with research rigor." />
+</svelte:head>
+
 <div class="min-h-screen bg-white text-black font-sans px-6 py-8 md:px-10 md:py-10 selection:bg-gray-200">
 	<!-- Header -->
 	<header class="grid grid-cols-2 md:grid-cols-12 gap-y-4 text-[15px] leading-tight mb-32 md:mb-48 font-normal">
 		<div class="col-span-1 md:col-span-3">
-			Christopher Doyle & Co.
+			Amber Minefee
 		</div>
 		
 		<div class="col-span-1 md:col-span-2 md:col-start-4">
-			<a href="#" class="hover:opacity-60 transition-opacity">Projects</a>
+			<a href="#" class="hover:opacity-60 transition-opacity">Work</a>
 		</div>
 		
 		<div class="col-span-1 md:col-span-2 md:col-start-6">
-			<a href="#" class="hover:opacity-60 transition-opacity">Profile</a>
+			<a href="#" class="hover:opacity-60 transition-opacity">About</a>
 		</div>
 		
 		<div class="col-span-1 md:col-span-2 md:col-start-10 text-right md:text-left">
-			<button class="hover:opacity-60 transition-opacity cursor-pointer">Lights Off</button>
+			<a href="#" class="hover:opacity-60 transition-opacity">Resume</a>
 		</div>
 		
 		<div class="col-span-1 md:col-span-1 md:col-start-12 text-right">
@@ -30,7 +35,7 @@
 	<section class="grid grid-cols-1 md:grid-cols-12 mb-32 md:mb-48">
 		<div class="col-span-1 md:col-span-9 md:col-start-4 text-[28px] md:text-[32px] leading-[1.15] tracking-tight font-normal">
 			<p>
-				We are a team of independent, globally-recognised, idea-led creatives specialising in brand identity, creative direction, and digital design. We collaborate with leading creatives in a variety of fields to help transform companies, products, and brands.
+				I'm a product designer who transforms complex systems into empathetic, data-informed experiences. With a background in healthcare and biology, I bring research rigor and human-centered thinking to every project—creating products that drive positive change and empower the underrepresented.
 			</p>
 		</div>
 	</section>
@@ -41,20 +46,22 @@
 		<article class="grid grid-cols-1 md:grid-cols-12">
 			<div class="col-span-1 md:col-span-9 md:col-start-4 grid grid-cols-1 md:grid-cols-12 mb-3 text-[15px] gap-y-1 items-baseline">
 				<div class="col-span-1 md:col-span-4 font-normal">
-					Tsu Lange Yor
+					Longitudinal Care
 				</div>
 				<div class="col-span-1 md:col-span-8 text-gray-400 font-normal">
-					Brand identity, art direction, motion, and digital design for elevated homewares and fragrances.
+					Healthcare UX and product design translating complex medical systems into intuitive patient experiences.
 				</div>
 			</div>
-			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-gray-200 overflow-hidden relative group cursor-pointer">
+			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-gray-100 overflow-hidden relative group cursor-pointer">
 				<img 
-					src="https://images.unsplash.com/photo-1615887023516-9b6c500c9c74?q=80&w=2500&auto=format&fit=crop&sat=-100" 
-					alt="Tsu Lange Yor Campaign" 
-					class="w-full h-full object-cover grayscale brightness-90 transition-transform duration-700 group-hover:scale-105"
+					src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2500&auto=format&fit=crop" 
+					alt="Longitudinal Care Healthcare Interface" 
+					class="w-full h-full object-cover brightness-95 transition-transform duration-700 group-hover:scale-105"
 				/>
 				<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-					<span class="text-white font-bold text-6xl md:text-8xl tracking-widest opacity-90">TSU LANGE YOR</span>
+					<div class="bg-white/95 px-8 py-6 rounded-sm shadow-lg">
+						<span class="text-gray-900 font-medium text-4xl md:text-6xl tracking-tight">Healthcare</span>
+					</div>
 				</div>
 			</div>
 		</article>
@@ -63,20 +70,22 @@
 		<article class="grid grid-cols-1 md:grid-cols-12">
 			<div class="col-span-1 md:col-span-9 md:col-start-4 grid grid-cols-1 md:grid-cols-12 mb-3 text-[15px] gap-y-1 items-baseline">
 				<div class="col-span-1 md:col-span-4 font-normal">
-					New Aim
+					Green St K-12
 				</div>
 				<div class="col-span-1 md:col-span-8 text-gray-400 font-normal">
-					Brand identity, motion, and illustration for Australia's largest and fastest-growing ecommerce company.
+					Education platform design and UX research empowering teachers and students through thoughtful interaction.
 				</div>
 			</div>
-			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-green-800 overflow-hidden relative group cursor-pointer">
+			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-primary-50 overflow-hidden relative group cursor-pointer">
 				<img 
-					src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=2500&auto=format&fit=crop" 
-					alt="New Aim Hoodie" 
-					class="w-full h-full object-cover opacity-60 mix-blend-multiply bg-green-700 transition-transform duration-700 group-hover:scale-105"
+					src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2500&auto=format&fit=crop" 
+					alt="Green St K-12 Education Platform" 
+					class="w-full h-full object-cover opacity-80 mix-blend-multiply transition-transform duration-700 group-hover:scale-105"
 				/>
-				<div class="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-					<span class="text-[#4ade80] font-bold text-[10rem] md:text-[14rem] -rotate-12 translate-y-10 tracking-tighter leading-none">newaim</span>
+				<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+					<div class="bg-primary-500/90 px-8 py-6 rounded-sm shadow-lg">
+						<span class="text-white font-medium text-4xl md:text-6xl tracking-tight">Education</span>
+					</div>
 				</div>
 			</div>
 		</article>
@@ -85,22 +94,24 @@
 		<article class="grid grid-cols-1 md:grid-cols-12">
 			<div class="col-span-1 md:col-span-9 md:col-start-4 grid grid-cols-1 md:grid-cols-12 mb-3 text-[15px] gap-y-1 items-baseline">
 				<div class="col-span-1 md:col-span-4 font-normal">
-					AirOxy
+					Green Thumb
 				</div>
 				<div class="col-span-1 md:col-span-8 text-gray-400 font-normal">
-					Brand identity, motion, and collateral for a new innovator in streamlined ecommerce solutions.
+					Consumer product design and visual design helping people cultivate their connection with plants.
 				</div>
 			</div>
-			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-[#2a6b8f] overflow-hidden relative group cursor-pointer">
+			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-[#1a4d2e] overflow-hidden relative group cursor-pointer">
 				<img 
-					src="https://images.unsplash.com/photo-1597200381847-30ec200eeb9a?q=80&w=2500&auto=format&fit=crop" 
-					alt="AirOxy Sky" 
-					class="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
+					src="https://images.unsplash.com/photo-1466781783364-36c955e42a7f?q=80&w=2500&auto=format&fit=crop" 
+					alt="Green Thumb Plant Care App" 
+					class="w-full h-full object-cover opacity-75 transition-transform duration-700 group-hover:scale-105"
 				/>
 				<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-					<div class="flex items-center gap-4 text-white">
-						<div class="w-10 h-10 md:w-14 md:h-14 border-[5px] border-white rounded-t-full rounded-bl-full rotate-45"></div>
-						<span class="font-bold text-5xl md:text-7xl tracking-tighter">AIROXY<sup class="text-2xl md:text-3xl top-[-1.5em]">TM</sup></span>
+					<div class="flex items-center gap-3">
+						<svg class="w-12 h-12 md:w-16 md:h-16 text-[#86efac]" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+						</svg>
+						<span class="text-[#86efac] font-medium text-5xl md:text-7xl tracking-tight">Green Thumb</span>
 					</div>
 				</div>
 			</div>
@@ -108,7 +119,7 @@
 
 		<div class="grid grid-cols-1 md:grid-cols-12 text-[15px]">
 			<div class="col-span-1 md:col-span-2 md:col-start-4">
-				<a href="#" class="hover:opacity-60 transition-opacity">More projects</a>
+				<a href="#" class="hover:opacity-60 transition-opacity">View all work</a>
 			</div>
 		</div>
 	</section>
@@ -117,26 +128,26 @@
 	<footer class="border-t border-gray-200 pt-6 md:pt-8 text-[13px] leading-relaxed text-gray-400 font-normal">
 		<div class="grid grid-cols-1 md:grid-cols-12 gap-y-8">
 			<div class="col-span-1 md:col-span-3">
-				&copy;Christopher Doyle & Co.
+				&copy; Amber Minefee
 			</div>
 
 			<div class="col-span-1 md:col-span-2 md:col-start-4 flex flex-col gap-0.5">
-				<a href="#" class="hover:text-black transition-colors">Instagram</a>
-				<a href="#" class="hover:text-black transition-colors">Twitter</a>
 				<a href="#" class="hover:text-black transition-colors">LinkedIn</a>
+				<a href="#" class="hover:text-black transition-colors">Dribbble</a>
+				<a href="#" class="hover:text-black transition-colors">Email</a>
 			</div>
 
 			<div class="col-span-1 md:col-span-3 md:col-start-6">
-				<p>Suite 405/46 Kippax St.</p>
-				<p>Surry Hills</p>
-				<p>Sydney 2010</p>
+				<p>Los Angeles, CA</p>
+				<p>Available for freelance</p>
+				<p>and contract work</p>
 			</div>
 		</div>
 
 		<div class="grid grid-cols-1 md:grid-cols-12 mt-12 md:mt-24">
 			<div class="col-span-1 md:col-span-6 md:col-start-4 text-gray-400">
 				<p>
-					We acknowledge Aboriginal & Torres Strait Islander peoples as the traditional custodians of country throughout Australia. Our studio sits on the lands of the Gadigal people of the Eora Nation and we pay our respects to their elders past, present, and emerging. Christopher Doyle & Co. is a proudly and intentionally inclusive company and supporter of the LGBTIQ+ community.
+					I'm committed to creating inclusive, accessible design that empowers underrepresented communities. My work centers on empathy, research rigor, and human-centered thinking—transforming complex systems into experiences that help people spend more time on what matters most.
 				</p>
 			</div>
 		</div>
